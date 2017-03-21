@@ -40,7 +40,7 @@ public class TimeTrackerTests {
         webSite.switchLanguage("en_US");
         webSite.checkLanguege("automated time and productivity tracking");
 
-        //webSite.switchLanguage("ru_RU");
+        webSite.switchLanguage("ru_RU");
         webSite.checkLanguege("автоматический учет времени и продуктивности");
 
         webSite.switchLanguage("uk_UA");
